@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['https://maga.sino0on.ru', 'https://www.maga.sino0on.ru']
 
 # Application definition
 
