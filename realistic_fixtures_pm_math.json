@@ -1,0 +1,612 @@
+[
+  {
+    "model": "main.category",
+    "pk": 1,
+    "fields": {
+      "title": "Прикладная математика и информатика",
+      "created_at": "2025-05-27T20:03:00.647009"
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 1,
+    "fields": {
+      "title": "Тест по Python",
+      "description": "Тест по Python для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 2,
+    "fields": {
+      "title": "Тест по теории программирования",
+      "description": "Тест по теории программирования для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 3,
+    "fields": {
+      "title": "Тест по теории вероятностей",
+      "description": "Тест по теории вероятностей для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 4,
+    "fields": {
+      "title": "Тест по базам данных",
+      "description": "Тест по базам данных для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 5,
+    "fields": {
+      "title": "Тест по алгоритмам и структурам данных",
+      "description": "Тест по алгоритмам и структурам данных для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 6,
+    "fields": {
+      "title": "Тест по машинному обучению",
+      "description": "Тест по машинному обучению для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.test",
+    "pk": 7,
+    "fields": {
+      "title": "Тест по дискретной математике",
+      "description": "Тест по дискретной математике для студентов направления ПМИ",
+      "image": "",
+      "created_at": "2025-05-27T20:03:00.647009",
+      "category": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 1,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 2,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 3,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 4,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 5,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 1
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 6,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 2
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 7,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 2
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 8,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 2
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 9,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 2
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 10,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 2
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 11,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 3
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 12,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 3
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 13,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 3
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 14,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 3
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 15,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 3
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 16,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 4
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 17,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 4
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 18,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 4
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 19,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 4
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 20,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 4
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 21,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 5
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 22,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 5
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 23,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 5
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 24,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 5
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 25,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 5
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 26,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 6
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 27,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 6
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 28,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 6
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 29,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 6
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 30,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 6
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 31,
+    "fields": {
+      "title": "Что выведет print(2 ** 3)?",
+      "image": "",
+      "answer1": "5",
+      "answer2": "6",
+      "answer3": "8",
+      "answer4": "9",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 7
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 32,
+    "fields": {
+      "title": "Какой тип данных используется для хранения истинности в Python?",
+      "image": "",
+      "answer1": "int",
+      "answer2": "bool",
+      "answer3": "str",
+      "answer4": "float",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 7
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 33,
+    "fields": {
+      "title": "Что такое рекурсия?",
+      "image": "",
+      "answer1": "Функция, вызывающая сама себя",
+      "answer2": "Циклический алгоритм",
+      "answer3": "Сортировка массива",
+      "answer4": "Алгоритм поиска",
+      "answer": 1,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 7
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 34,
+    "fields": {
+      "title": "Что такое foreign key в базе данных?",
+      "image": "",
+      "answer1": "Первичный ключ",
+      "answer2": "Ключ от другого столбца",
+      "answer3": "Связь между таблицами",
+      "answer4": "Вторичный индекс",
+      "answer": 3,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 7
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 35,
+    "fields": {
+      "title": "Что делает метод fit() в sklearn?",
+      "image": "",
+      "answer1": "Применяет модель",
+      "answer2": "Обучает модель",
+      "answer3": "Удаляет модель",
+      "answer4": "Сохраняет модель",
+      "answer": 2,
+      "created_at": "2025-05-27T20:03:00.647009",
+      "test": 7
+    }
+  }
+]
