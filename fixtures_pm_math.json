@@ -1,6 +1,6 @@
 [
   {
-    "model": "app_name.category",
+    "model": "main.category",
     "pk": 1,
     "fields": {
       "title": "Прикладная математика и информатика",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 1,
     "fields": {
       "title": "Тест №1",
@@ -19,7 +19,7 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 2,
     "fields": {
       "title": "Тест №2",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 3,
     "fields": {
       "title": "Тест №3",
@@ -41,7 +41,7 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 4,
     "fields": {
       "title": "Тест №4",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 5,
     "fields": {
       "title": "Тест №5",
@@ -63,10 +63,10 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 6,
     "fields": {
-      "title": "Тест №6",
+      "title": "Тест по теме №6 для специальности ПМИ",
       "description": "Тест по теме №6 для специальности ПМИ",
       "image": "",
       "created_at": "2025-05-27T19:54:14.508337",
@@ -74,10 +74,10 @@
     }
   },
   {
-    "model": "app_name.test",
+    "model": "main.test",
     "pk": 7,
     "fields": {
-      "title": "Тест №7",
+      "title": "Тест по теме №7 для специальности ПМИ",
       "description": "Тест по теме №7 для специальности ПМИ",
       "image": "",
       "created_at": "2025-05-27T19:54:14.508337",
@@ -85,7 +85,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 1,
     "fields": {
       "title": "Вопрос 1 к Тесту №1",
@@ -100,7 +100,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 2,
     "fields": {
       "title": "Вопрос 2 к Тесту №1",
@@ -115,7 +115,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 3,
     "fields": {
       "title": "Вопрос 3 к Тесту №1",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 4,
     "fields": {
       "title": "Вопрос 4 к Тесту №1",
@@ -145,7 +145,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 5,
     "fields": {
       "title": "Вопрос 5 к Тесту №1",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 6,
     "fields": {
       "title": "Вопрос 1 к Тесту №2",
@@ -175,7 +175,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 7,
     "fields": {
       "title": "Вопрос 2 к Тесту №2",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 8,
     "fields": {
       "title": "Вопрос 3 к Тесту №2",
@@ -205,7 +205,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 9,
     "fields": {
       "title": "Вопрос 4 к Тесту №2",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 10,
     "fields": {
       "title": "Вопрос 5 к Тесту №2",
@@ -235,7 +235,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 11,
     "fields": {
       "title": "Вопрос 1 к Тесту №3",
@@ -250,7 +250,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 12,
     "fields": {
       "title": "Вопрос 2 к Тесту №3",
@@ -265,7 +265,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 13,
     "fields": {
       "title": "Вопрос 3 к Тесту №3",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 14,
     "fields": {
       "title": "Вопрос 4 к Тесту №3",
@@ -295,7 +295,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 15,
     "fields": {
       "title": "Вопрос 5 к Тесту №3",
@@ -310,7 +310,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 16,
     "fields": {
       "title": "Вопрос 1 к Тесту №4",
@@ -325,7 +325,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 17,
     "fields": {
       "title": "Вопрос 2 к Тесту №4",
@@ -340,7 +340,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 18,
     "fields": {
       "title": "Вопрос 3 к Тесту №4",
@@ -355,7 +355,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 19,
     "fields": {
       "title": "Вопрос 4 к Тесту №4",
@@ -370,7 +370,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 20,
     "fields": {
       "title": "Вопрос 5 к Тесту №4",
@@ -385,7 +385,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 21,
     "fields": {
       "title": "Вопрос 1 к Тесту №5",
@@ -400,7 +400,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 22,
     "fields": {
       "title": "Вопрос 2 к Тесту №5",
@@ -415,7 +415,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 23,
     "fields": {
       "title": "Вопрос 3 к Тесту №5",
@@ -430,7 +430,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 24,
     "fields": {
       "title": "Вопрос 4 к Тесту №5",
@@ -445,7 +445,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 25,
     "fields": {
       "title": "Вопрос 5 к Тесту №5",
@@ -460,7 +460,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 26,
     "fields": {
       "title": "Вопрос 1 к Тесту №6",
@@ -475,7 +475,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 27,
     "fields": {
       "title": "Вопрос 2 к Тесту №6",
@@ -490,7 +490,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 28,
     "fields": {
       "title": "Вопрос 3 к Тесту №6",
@@ -505,7 +505,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 29,
     "fields": {
       "title": "Вопрос 4 к Тесту №6",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 30,
     "fields": {
       "title": "Вопрос 5 к Тесту №6",
@@ -535,7 +535,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 31,
     "fields": {
       "title": "Вопрос 1 к Тесту №7",
@@ -550,7 +550,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 32,
     "fields": {
       "title": "Вопрос 2 к Тесту №7",
@@ -565,7 +565,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 33,
     "fields": {
       "title": "Вопрос 3 к Тесту №7",
@@ -580,7 +580,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 34,
     "fields": {
       "title": "Вопрос 4 к Тесту №7",
@@ -595,7 +595,7 @@
     }
   },
   {
-    "model": "app_name.question",
+    "model": "main.question",
     "pk": 35,
     "fields": {
       "title": "Вопрос 5 к Тесту №7",
